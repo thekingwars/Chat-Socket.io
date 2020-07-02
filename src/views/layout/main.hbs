@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Animate css-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Estilos Propios-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Chat app</title>
+</head>
+
+<body>
+
+    {{> navigation}}
+
+    <main class="container">
+        {{> message}}
+        {{> errors}}
+        {{{body}}}
+    </main>
+
+    <!--Script bootstrap-->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

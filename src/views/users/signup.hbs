@@ -1,0 +1,25 @@
+<div class="card bg-light animated jackInTheBox mx-auto mt-5" style="width: 38rem;">
+    <div class="card-body">
+        <h5 class="card-title text-center h3">Registro</h5>
+        <form action="/register" method="POST">
+            <div class="form-group">
+                <label for="example">User</label>
+                <input type="text" autocomplete="off" id="example" name="usuario" class="form-control" value="{{usuario}}">
+            </div>
+            <div class="form-group">
+                <label for="example2">Password</label>
+                <input type="password" id="example2" name="password" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="example3">Confirmar Password</label>
+                <input type="password" id="example3" name="confirm_pass" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-dark btn-block">
+                Registrar
+            </button>
+        </form>
+        <div class="text-center">
+            <a href="/login">¿Ya estás registrado?</a>
+        </div>
+    </div>
+</div>
